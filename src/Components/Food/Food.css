@@ -1,0 +1,7 @@
+.Food-caontainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 30px 90px;
+    gap: 28px 26px;
+    padding-bottom: 30px;
+}

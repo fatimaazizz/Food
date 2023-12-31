@@ -1,0 +1,54 @@
+.heading
+{
+color: #000;
+font-size: 1rem;
+font-weight: 500;
+line-height: 1.5;
+margin: 0;
+}
+.orange-btn
+{
+ cursor: pointer;
+border-radius: 50px;
+background: #E74C1B;
+border: 1px solid #E74C1B;
+color: #FFF;
+font-size: 25px;
+font-weight: 400;
+line-height: 37.5px;
+padding: 12px 24px;
+transition: all 0.5s;
+}
+.orange-btn:hover{
+  border-color:#a62c07;
+  background: #a62c07;
+}
+.btn
+{
+  border:none;
+  background: none;
+  color: #E74C1B;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  --btn-stroke-color:black;
+  cursor: pointer;
+  padding:0;
+}
+.btn:hover,.btn:focus,.btn:active
+{
+  color: #a62c07;
+  --btn-stroke-color:#a62c07;
+}
+.sub-heading
+{
+  display: flex;
+  justify-content: space-between;
+  margin-inline: 30px;
+  margin-top:40px;
+}
+section{
+  max-width: 1366px;
+  margin: auto;
+}
+

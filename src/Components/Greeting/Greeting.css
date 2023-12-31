@@ -1,0 +1,23 @@
+.Greeting-heading{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-inline: 30px;
+    padding-top: 74px;
+}
+.main-heading
+{
+color: #000;
+font-size: 1.563rem;
+font-weight: 600;
+line-height: 1.5;
+margin: 0;
+}
+.timing
+{color: #000;
+font-size: 0.813rem;
+font-weight: 400;
+line-height: 1.5;
+margin-block:0;
+margin-inline: 30px;
+}

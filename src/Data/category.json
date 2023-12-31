@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "name": "Salad",
+      "bgColor": "#EAF9E6",
+      "bgImage": "../images/salad.png"
+    },
+    {
+        "id": 2,
+        "name": "Steak",
+        "bgColor": "#FFE8EE",
+        "bgImage": "./images/steak.png"
+    },
+    {
+        "id": 3,
+        "name": "Chicken",
+        "bgColor": "#FFEEE8",
+        "bgImage": "./images/chicken.png"
+    },
+    {
+        "id": 4,
+        "name": "Burger",
+        "bgColor": "#f5d2f5",
+        "bgImage": "./images/burger.png"
+    }
+  ]

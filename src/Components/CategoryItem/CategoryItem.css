@@ -1,0 +1,23 @@
+.category-item
+{
+
+    border-radius: 0.625rem;
+    width: 145px;
+    height: 71px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.category-item-name
+{
+    color: #000;
+    font-size: 0.938rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 13px 16px;
+    margin: 0;
+    text-align: left;
+}
+.seeAll
+{
+    width:100%;
+}

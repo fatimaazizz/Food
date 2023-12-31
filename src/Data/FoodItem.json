@@ -1,0 +1,49 @@
+[
+    {
+      "id": "f1",
+      "name": "Green salad with mashed potatots",
+      "Category": "salad",
+      "price":"12.22",
+      "by":"Steak house",
+      "rating":4.5,
+      "description":"Indulge in the mouthwatering delight of a perfectly grilled beef steak generously topped with a rich and savory mushroom sauce.",
+      "liked":false,
+      "Image": "./images/Green salad with mashed potatots.png",
+      "productImage":"../images/product-image.png"
+    },
+    {
+        "id": "f2",
+        "name": "Fresh vegetable salad",
+        "Category": "salad",
+        "price":"11.22", "by":"Steak house",
+        "rating":4.5,
+        "description":"Indulge in the mouthwatering delight of a perfectly grilled beef steak generously topped with a rich and savory mushroom sauce.",
+        "liked":true,
+        "Image": "./images/Fresh vegetable salad.png",
+        "productImage":"../images/product-image.png"
+    },
+    {
+        "id": "f3",
+        "name": "Cumber Tomato Salad",
+        "Category": "salad",
+        "price":"11.22",
+        "by":"Steak house",
+        "rating":4.5,
+        "description":"Indulge in the mouthwatering delight of a perfectly grilled beef steak generously topped with a rich and savory mushroom sauce.",
+        "liked":true,
+        "Image": "./images/Cumber Tomato Salad.png",
+        "productImage":"../images/product-image.png"
+    },
+    {
+        "id": "f4",
+        "name": "Cumber Tomato Salad",
+        "Category": "salad",
+        "price":"11.22",
+        "liked":true,
+        "Image": "./images/Cumber Tomato Salad.png",
+        "by":"Steak house",
+        "rating":4.5,
+        "description":"Indulge in the mouthwatering delight of a perfectly grilled beef steak generously topped with a rich and savory mushroom sauce."
+    ,"productImage":"../images/product-image.png"
+    }
+  ]

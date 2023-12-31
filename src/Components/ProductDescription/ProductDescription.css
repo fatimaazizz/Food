@@ -1,0 +1,129 @@
+.product-resturant
+{
+font-size: 1.125rem;
+font-weight: 400;
+line-height: 1.5;
+text-align: left;
+color: #A1A1A1;
+margin-top:4px;
+}
+.product-rating{
+    color: #000;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top:16px;
+    --rating-fill-color:#FFB300;
+    display: flex;
+    gap:4px;
+    }
+    .pr4{--rating-fill-color:#FFB300;}
+    .pr3{--rating-fill-color:#cbb47b;}
+    .pr2{--rating-fill-color:#a5a4a1;}
+    .pr1{--rating-fill-color:none;
+
+        --rating-stroke-color:#a5a4a1;
+    }
+    .product-Descrption-title{
+        color: #000;
+font-size: 1.125rem;
+font-weight: 600;
+line-height: 1.5;
+margin-top: 119.5px;
+
+    }
+    .product-Descrption{
+        color: #A1A1A1;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+    .bottom-container{
+        display: flex;
+        justify-content: space-between;
+        padding: 37px 34px;
+
+    }
+    .product-price-title{
+        color: #434141;
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21.78px;
+    }
+    .product-price-Amount{
+        margin:0;
+        color: #000;
+        font-family: Inter;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 36.31px;
+    }
+    .product-currency-container{
+        color:#E74C1B
+    }
+    .product-content-container{
+        border-radius: 0px 0px 50px 50px;
+        background-color: #fff;
+        box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.05);
+        padding:0 37px 24px;
+        position: relative;
+    }
+    .product-container
+    {
+        background-color: #F0F4FC;
+    }
+    .quantity-button{
+        padding-top:88px;
+        display: flex;
+        flex-direction: column;
+        gap:9.14px;
+    }
+    .white-btn
+    {
+        background: none;
+        width: 48px;
+        height: 48px;
+        border: none;
+        padding: 0;
+        box-sizing: border-box;
+        --qunantity-btn-stroke-color:#E74C1B;
+        --qunantity-btn-fill-color:none;
+        cursor: pointer;
+    }
+    .white-btn:hover,.white-btn:active,.white-btn:focus{
+        --qunantity-btn-stroke-color:#E74C1B;
+        --qunantity-btn-fill-color:#e7cdc5;
+    }
+    .quantity
+    {
+        color: #000;
+
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+    width: 48px;
+line-height:36.31px;
+text-align: center;
+    }
+    .product-image-container
+    {
+        position: absolute;
+        right:0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .product-details{
+        position: relative;
+        z-index:1;
+    }
+    @media (max-width: 396px) {
+        .product-image-container
+        {
+            width:70%;
+            overflow: hidden;
+        }
+      }
+      
+    

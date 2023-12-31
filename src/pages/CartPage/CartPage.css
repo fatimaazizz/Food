@@ -1,0 +1,7 @@
+.cart-container
+{
+    background:#F0F4FC;
+    display: flex;
+    gap:20px;
+    flex-direction: column;
+}

@@ -1,0 +1,31 @@
+.navItem-list
+{
+    display: inline-block;
+}
+.navItem
+{
+    width:51.91px;
+    height:51.91px;
+    border-radius: 50%;
+    display: block;
+    box-sizing: border-box;
+    padding: 11px;
+    --nav-menu-stroke-color:#A1A1A1;
+    --nav-menu-fill-color:none;
+}
+.navItem:hover
+{
+    --nav-menu-stroke-color:#fff;
+    background-color: black;
+}
+.navItem.active
+{
+    --nav-menu-stroke-color:#EA5323;
+    --nav-menu-fill-color:#EA5323;
+}
+
+.navItem svg{
+    width: 100%;
+    height:100%;
+}
+

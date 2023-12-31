@@ -1,0 +1,29 @@
+.Detail-item-name{
+color:#000;
+font-size: 25px;
+font-weight: 600;
+line-height: 38px;
+text-align: left;
+margin:0;
+}
+.Detail-item-quantity
+{
+    color: #A1A1A1;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    
+}
+.Detail-item-description{
+    margin-inline:30px;
+}
+.Detail-item-description ul{
+   padding:0;
+   display: flex;
+   flex-wrap: wrap;
+}
+.Detail-item-description li{
+    display: inline-block;
+    width:50%;
+}

@@ -1,0 +1,15 @@
+.bottom-nav{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background: #F0F4FC;
+}
+.navUl
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin:19.1px;
+}
