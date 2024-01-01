@@ -1,6 +1,6 @@
 import './App.css';
 import MainPage from './pages/MainPage/MainPage';
-import { HashRouter as Router, Route, Routes} from 'react-router-dom'
+import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import FavouritePage from './pages/FavouritePage/FavouritePage';
 import Product from './pages/ProductPage/Product';
 import Navbar from './Components/Navbar/Navbar';
@@ -12,10 +12,10 @@ function App() {
   return (
     <div className="App">
     
-      <Router >
+      <BrowserRouter basename='/Food'>
       <Navbar></Navbar>
         <Routes>
-          <Route  index element={<MainPage/>}></Route>
+          <Route  path="/Food"  element={<MainPage/>}></Route>
           <Route path="/favourite"  element={<FavouritePage/>}></Route>
           <Route path="/product/:productId" element={<Product/>}></Route>
           <Route path="/cart" element={<CartPage/>}></Route>
@@ -23,7 +23,7 @@ function App() {
           <Route path="/thankyou" element={<ThankYou/>}></Route>
         </Routes>
 
-      </Router>
+      </BrowserRouter>
   
     </div>
     
