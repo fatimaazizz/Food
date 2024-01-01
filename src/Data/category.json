@@ -3,7 +3,7 @@
       "id": 1,
       "name": "Salad",
       "bgColor": "#EAF9E6",
-      "bgImage": "../images/salad.png"
+      "bgImage": "./images/salad.png"
     },
     {
         "id": 2,

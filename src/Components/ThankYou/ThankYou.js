@@ -9,7 +9,7 @@ const ThankYou = (props) => {
     const navigate=useNavigate();
     const obj={heading:undefined,product:false,liked:false}
     const handHome=()=>{
-       navigate("//");
+       navigate("/");
      }
   return (
     <div className='Thank-you'>

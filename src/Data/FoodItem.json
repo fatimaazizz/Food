@@ -9,7 +9,7 @@
       "description":"Indulge in the mouthwatering delight of a perfectly grilled beef steak generously topped with a rich and savory mushroom sauce.",
       "liked":false,
       "Image": "./images/Green salad with mashed potatots.png",
-      "productImage":"../images/product-image.png"
+      "productImage":"./images/product-image.png"
     },
     {
         "id": "f2",
@@ -20,7 +20,7 @@
         "description":"Indulge in the mouthwatering delight of a perfectly grilled beef steak generously topped with a rich and savory mushroom sauce.",
         "liked":true,
         "Image": "./images/Fresh vegetable salad.png",
-        "productImage":"../images/product-image.png"
+        "productImage":"./images/product-image.png"
     },
     {
         "id": "f3",
@@ -32,7 +32,7 @@
         "description":"Indulge in the mouthwatering delight of a perfectly grilled beef steak generously topped with a rich and savory mushroom sauce.",
         "liked":true,
         "Image": "./images/Cumber Tomato Salad.png",
-        "productImage":"../images/product-image.png"
+        "productImage":"./images/product-image.png"
     },
     {
         "id": "f4",
@@ -44,6 +44,6 @@
         "by":"Steak house",
         "rating":4.5,
         "description":"Indulge in the mouthwatering delight of a perfectly grilled beef steak generously topped with a rich and savory mushroom sauce."
-    ,"productImage":"../images/product-image.png"
+    ,"productImage":"./images/product-image.png"
     }
   ]
