@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
     
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Navbar></Navbar>
         <Routes>
           <Route index element={<MainPage/>}></Route>
