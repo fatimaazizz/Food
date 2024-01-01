@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fatimaazizz/Food/static/css/main.8e16c680.css",
-    "main.js": "/fatimaazizz/Food/static/js/main.7212835a.js",
+    "main.js": "/fatimaazizz/Food/static/js/main.e65c643b.js",
     "static/js/787.62725d97.chunk.js": "/fatimaazizz/Food/static/js/787.62725d97.chunk.js",
     "static/media/Inter-Regular.woff": "/fatimaazizz/Food/static/media/Inter-Regular.8a19fc72bf6ea80a89e8.woff",
     "static/media/Poppins-Regular.woff": "/fatimaazizz/Food/static/media/Poppins-Regular.ab6122bd28174ddf9eeb.woff",
@@ -9,11 +9,11 @@
     "static/media/Poppins-Medium.woff": "/fatimaazizz/Food/static/media/Poppins-Medium.c162ccbbda8bd6839b3a.woff",
     "index.html": "/fatimaazizz/Food/index.html",
     "main.8e16c680.css.map": "/fatimaazizz/Food/static/css/main.8e16c680.css.map",
-    "main.7212835a.js.map": "/fatimaazizz/Food/static/js/main.7212835a.js.map",
+    "main.e65c643b.js.map": "/fatimaazizz/Food/static/js/main.e65c643b.js.map",
     "787.62725d97.chunk.js.map": "/fatimaazizz/Food/static/js/787.62725d97.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8e16c680.css",
-    "static/js/main.7212835a.js"
+    "static/js/main.e65c643b.js"
   ]
 }
