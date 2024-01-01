@@ -12,10 +12,10 @@ function App() {
   return (
     <div className="App">
     
-      <BrowserRouter basename='/Food'>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Navbar></Navbar>
         <Routes>
-          <Route  path="/Food"  element={<MainPage/>}></Route>
+          <Route  path="/"  element={<MainPage/>}></Route>
           <Route path="/favourite"  element={<FavouritePage/>}></Route>
           <Route path="/product/:productId" element={<Product/>}></Route>
           <Route path="/cart" element={<CartPage/>}></Route>
