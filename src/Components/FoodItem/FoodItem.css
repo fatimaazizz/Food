@@ -77,6 +77,11 @@ margin: 0;
     cursor: pointer;
     --stroke-color:black;
     --heart-fill-color:none;
+    transition: fill 2s;
+}
+.Food-item-like:hover
+{
+    transform: scale(1.1);
   
 }
 .Food-item-img-container img{
@@ -87,7 +92,7 @@ margin: 0;
 .Food-item-like path{
     transition: fill 2s;
 }
-.Food-item-like:hover ,.liked
+.liked
 {
     --stroke-color:#E74C1B;
     --heart-fill-color:#E74C1B;
